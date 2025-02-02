@@ -27,6 +27,7 @@ Additional images from other repositories can be incorporated to improve accurac
 
 ## Model Details
 ### VGG19-based Model
+https://github.com/rahafsb/CNN_HW4/blob/main/VGG19.ipynb
 - Utilize **VGG19** as a feature extractor.
 - Remove the final classification layer and replace it with:
   - Fully Connected (Dense) Layers
@@ -34,6 +35,7 @@ Additional images from other repositories can be incorporated to improve accurac
   - Softmax activation for multi-class classification
 
 ### YOLOv5-based Model
+https://github.com/rahafsb/CNN_HW4/blob/main/yolov5.ipynb
 - Convert YOLOv5 from object detection to classification mode.
 - Extract features from its backbone network.
 - Add custom **fully connected layers** for classification.
@@ -65,4 +67,5 @@ VGG19:
 
 ---
 This project explores CNN-based classification using pre-trained models and transfer learning to achieve robust flower recognition.
+https://github.com/rahafsb/CNN_HW4/tree/main
 
